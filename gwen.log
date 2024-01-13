@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.12)  13 JAN 2024 00:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.12)  13 JAN 2024 01:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -52,7 +52,7 @@ File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count193
 \l__pdf_internal_box=\box50
 )
-No file gwen.aux.
+(./gwen.aux)
 \openout1 = `gwen.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -69,7 +69,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count194
 \scratchdimen=\dimen141
@@ -100,21 +100,17 @@ Package pdftex.def Info: gwenpic.jpg  used on input line 10.
 (./gwentext.txt) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./gwenpic.jpg>] (./gwen.au
-x)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+x) ) 
 Here is how much of TeX's memory you used:
- 1265 strings out of 480247
- 20593 string characters out of 5896151
- 304673 words of memory out of 5000000
+ 1267 strings out of 480247
+ 20611 string characters out of 5896151
+ 305672 words of memory out of 5000000
  19254 multiletter control sequences out of 15000+600000
  469259 words of font info for 28 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  55i,6n,62p,346b,230s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on gwen.pdf (1 page, 159996 bytes).
+Output written on gwen.pdf (1 page, 160094 bytes).
 PDF statistics:
  14 PDF objects out of 1000 (max. 8388607)
  7 compressed objects within 1 object stream
