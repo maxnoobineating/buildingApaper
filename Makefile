@@ -8,6 +8,8 @@ all: $(objfiles)
 gwen.pdf: $(srcfiles)
 	@echo building pdfs...
 	@pdflatex gwen.tex
+	@git add .
+	@git commit --amend --no-verify -C HEAD
 
 clean:
 	rm gwen.aux gwen.log gwen.pdf
