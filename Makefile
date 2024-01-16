@@ -3,7 +3,7 @@ srcfiles := gwen.html gwentext.txt gwenpic.jpg gwen.tex
 
 SAY := echo "\033[0;31m\n"
 END := "\033[0m\n"
-TIME := $(date)
+TIME := $(shell date)
 
 all: $(objfiles)
 
