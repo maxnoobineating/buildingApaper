@@ -3,6 +3,7 @@ srcfiles := gwen.html gwentext.txt gwenpic.jpg gwen.tex
 
 SAY := echo "\033[0;31m\n"
 END := "\033[0m\n"
+TIME := $(date)
 
 all: $(objfiles)
 
@@ -20,7 +21,7 @@ index.html: gwenpdf.jpg gwen.html
 	@$(SAY) "building index.html" $(END)
 	@cat gwen.html \
 		| sed 's/building_template_1/$</g' \
-		| sed "/building_template_2/a\t\t\t\t<p>$(date)</p>" \
+		| sed "/building_template_2/a<p>$(TIME)</p>" \
 		> index.html
 
 clean:
