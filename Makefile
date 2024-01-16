@@ -16,6 +16,8 @@ gwen.pdf: $(srcfiles)
 gwenpdf.jpg: gwen.pdf
 	@$(SAY) "building pdf into jpg" $(END)
 	@pdftoppm -jpeg gwen.pdf gwenpdf
+	@rm ./gwenpdf.jpg
+	@mv ./gwenpdf*.jpg ./gwenpdf.jpg
 
 index.html: gwenpdf.jpg gwen.html
 	@$(SAY) "building index.html" $(END)
