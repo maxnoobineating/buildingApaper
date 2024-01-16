@@ -11,10 +11,11 @@
         }
         .full-page-image {
             width: 100vw;
-            height: 100vh;
-						overflow-y: auto;
-            background: url('building_template_1') no-repeat center center fixed; 
-            background-size: cover;
+            overflow-y: auto;
+        }
+        .full-page-image img {
+            width: 100%;
+            height: auto;
         }
         .text-section {
             padding: 20px;
@@ -23,11 +24,13 @@
     </style>
 </head>
 <body>
-    <div class="full-page-image"></div>
+    <div class="full-page-image">
+        <img src="building_template_1" alt="gwen watches you">
+    </div>
     <div class="text-section">
         <h1>Gwen knows</h1>
         <p>You're not alone, join our groups of gwenworshipper</p>
-				<!--building_template_2--!>
+        <!--building_template_2--!>
     </div>
 </body>
 </html>
