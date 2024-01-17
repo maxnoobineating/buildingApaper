@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.12)  16 JAN 2024 07:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.12)  16 JAN 2024 23:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -110,7 +110,7 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  55i,6n,62p,346b,230s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on gwen.pdf (1 page, 160094 bytes).
+Output written on gwen.pdf (1 page, 159914 bytes).
 PDF statistics:
  14 PDF objects out of 1000 (max. 8388607)
  7 compressed objects within 1 object stream
