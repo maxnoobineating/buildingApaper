@@ -38,6 +38,10 @@ jobs:
       - name: ShellCheck
         uses: ludeeus/action-shellcheck@2.0.0
 
+      - name: writing linter
+        run: |
+          npm install -g write-good
+          write-good *.md
 #   build-and-deploy:
 #     needs: build
 #     runs-on: ubuntu-latest

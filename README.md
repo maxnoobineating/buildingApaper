@@ -1,5 +1,16 @@
-<object data="gwen.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="gwen.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="gwen.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
+---
+title: Gwen Page
+---
+
+::: {.full-page-image}
+![gwen watches you](gwenpdf.jpg)
+:::
+
+::: {.text-section}
+Gwen knows
+==========
+
+You\'re not alone, join our groups of gwenworshipper
+
+Wed Jan 17 12:21:35 AM PST 2024
+:::
