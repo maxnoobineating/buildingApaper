@@ -1,0 +1,19 @@
+
+\documentclass{article}  % Choose the appropriate class for your document
+
+\usepackage{graphicx}   % Load the package
+
+\begin{document}        % Begin the document
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{gwenpic}
+    \caption{Gwen is always watching}
+    \label{fig:gwenpic}
+\end{figure}
+
+\begin{obeylines}
+\input{gwentext.txt}
+\end{obeylines}
+
+\end{document}          % End the document
